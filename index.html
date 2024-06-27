@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SpeedSoft - %VITE_APP_NAME%</title>
+        <link rel="stylesheet" type="text/css" href="/app.css" />
+        <link rel="stylesheet" type="text/css" href="/loader.css" />
+    </head>
+    <body class="d-flex flex-column" style="-webkit-app-region: no-drag">
+        <nav class="app-navbar-menu">
+            <div class="app-nav-items">
+                <img src="/favicon.ico" style="height: 20px;">
+                <div class="app-title" style="-webkit-app-region: drag">
+                    SpeedSoft - %VITE_APP_NAME%
+                </div>
+                <div class="app-items">
+                    <button id="minimize-app" class="btn btn-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-[10px]" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /></svg>
+                    </button>
+                    <button id="close-app" class="btn btn-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-[10px]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div id="app">
+            <div id="loading-bg">
+                <div class="loading-logo">
+                    <!-- SVG Logo -->
+                    <img src="/logo.png" alt="SpeedSoft Logo" width="80"/>
+                </div>
+                <div class=" loading">
+                    <div class="effect-1 effects"></div>
+                    <div class="effect-2 effects"></div>
+                    <div class="effect-3 effects"></div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+        <script type="module" src="/electron/preload/window.ts"></script>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+{
+    "empresa": {
+        "register": "Cadastrar Empresa",
+        "edit": "Editar Empresa",
+        "list": "Empresas",
+        "form": {
+            "cnpj": {
+                "label": "Cnpj",
+                "placeholder": ""
+            },
+            "razao_social": {
+                "label": "Razao_social",
+                "placeholder": ""
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": ""
+            },
+            "telefone": {
+                "label": "Telefone",
+                "placeholder": ""
+            },
+            "cep": {
+                "label": "Cep",
+                "placeholder": ""
+            },
+            "logradouro": {
+                "label": "Logradouro",
+                "placeholder": ""
+            },
+            "numero": {
+                "label": "Numero",
+                "placeholder": ""
+            },
+            "bairro": {
+                "label": "Bairro",
+                "placeholder": ""
+            },
+            "cidade": {
+                "label": "Cidade",
+                "placeholder": ""
+            },
+            "uf": {
+                "label": "Uf",
+                "placeholder": ""
+            },
+            "pais": {
+                "label": "Pais",
+                "placeholder": ""
+            }
+        },
+        "headers": {
+            "cnpj": "Cnpj",
+            "razao_social": "Razao Social",
+            "email": "Email",
+            "telefone": "Telefone",
+            "cep": "Cep",
+            "logradouro": "Logradouro",
+            "numero": "Numero",
+            "bairro": "Bairro",
+            "cidade": "Cidade",
+            "uf": "Uf",
+            "pais": "Pais"
+        },
+        "terms": {
+            "cnpj": "Cnpj",
+            "razao_social": "Razao Social",
+            "email": "Email",
+            "telefone": "Telefone",
+            "cep": "Cep",
+            "logradouro": "Logradouro",
+            "numero": "Numero",
+            "bairro": "Bairro",
+            "cidade": "Cidade",
+            "uf": "Uf",
+            "pais": "Pais"
+        }
+    }
+}

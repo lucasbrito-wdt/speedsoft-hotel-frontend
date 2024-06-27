@@ -1,0 +1,54 @@
+// @see https://www.electron.build/configuration/configuration
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.webdesigntechnologies.speedsoft.hotel",
+  "asar": true,
+  "productName": "speedsoft-hotel",
+  "copyright": "Copyright © 2024 Web Design Technologies",
+  "directories": {
+    "output": "release/${version}",
+  },
+  "files": [
+    "dist",
+    "dist-electron"
+  ],
+  "mac": {
+    "target": [
+      "dmg"
+    ],
+    "icon": "build/mac/icon.icns",
+    "artifactName": "speedsoft-hotel-mac-${version}-installer.${ext}"
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "icon": "build/win/icon.ico",
+    "artifactName": "speedsoft-hotel-windows-${version}-setup.${ext}"
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": false,
+    "deleteAppDataOnUninstall": false,
+  },
+  "linux": {
+    "target": [
+      "AppImage"
+    ],
+    "artifactName": "speedsoft-hotel-linux-${version}.${ext}"
+  },
+  "publish": {
+    "provider": "github",
+    "repo": "speedsoft-hotel-frontend",
+    "owner": "lucasbrito-wdt",
+    "private": true,
+    "channel": "latest",
+    "token": "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",
+  }
+}

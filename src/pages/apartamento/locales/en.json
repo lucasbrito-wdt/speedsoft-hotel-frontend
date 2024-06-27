@@ -1,0 +1,25 @@
+{
+    "apartamento": {
+        "register": "Cadastrar Apartamento",
+        "edit": "Editar Apartamento",
+        "list": "Apartamentos",
+        "form": {
+            "nome": {
+                "label": "Nome",
+                "placeholder": ""
+            },
+            "codigo": {
+                "label": "Codigo",
+                "placeholder": ""
+            }
+        },
+        "headers": {
+            "nome": "Nome",
+            "codigo": "Codigo"
+        },
+        "terms": {
+            "nome": "Nome",
+            "codigo": "Codigo"
+        }
+    }
+}

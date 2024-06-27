@@ -1,0 +1,39 @@
+{
+  "users": {
+    "register": "Register Users",
+    "edit": "Edit Users",
+    "list": "List Users",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter your name"
+      },
+      "role": {
+        "label": "Role",
+        "placeholder": "Enter the role"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Enter your e-mail"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Enter your password"
+      },
+      "password_confirmation": {
+        "label": "Password confirmation",
+        "placeholder": "Enter your password again"
+      }
+    },
+    "headers": {
+      "name": "Name",
+      "role": "Role",
+      "email": "E-mail",
+      "actions": "Actions"
+    },
+    "terms": {
+      "name": "Name",
+      "email": "E-mail"
+    }
+  }
+}

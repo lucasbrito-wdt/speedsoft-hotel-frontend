@@ -1,0 +1,39 @@
+{
+  "users": {
+    "register": "Registrar Usuarios",
+    "edit": "Editar Usuarios",
+    "list": "Lista de Usuarios",
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "placeholder": "Introduzca su nombre"
+      },
+      "role": {
+        "label": "Rol",
+        "placeholder": "Introduzca su rol"
+      },
+      "email": {
+        "label": "E-mail",
+        "placeholder": "Introduzca su e-mail"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Introduzca su password"
+      },
+      "password_confirmation": {
+        "label": "Password de nuevo",
+        "placeholder": "Introduzca su password de nuevo"
+      }
+    },
+    "headers": {
+      "name": "Nombre",
+      "role": "Rol",
+      "email": "E-mail",
+      "actions": "Acciones"
+    },
+    "terms": {
+      "name": "Nombre",
+      "email": "E-mail"
+    }
+  }
+}

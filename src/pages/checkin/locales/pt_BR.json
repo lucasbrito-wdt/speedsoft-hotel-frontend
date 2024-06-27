@@ -1,0 +1,101 @@
+{
+    "checkin": {
+        "register": "Fazer Checkin",
+        "edit": "Editar Checkin",
+        "list": "Checkins",
+        "form": {
+            "chegada": {
+                "label": "Chegada",
+                "placeholder": ""
+            },
+            "saida": {
+                "label": "Saida",
+                "placeholder": ""
+            },
+            "quantidade_adulto": {
+                "label": "Quantidade_adulto",
+                "placeholder": ""
+            },
+            "quantidade_crianca": {
+                "label": "Quantidade_crianca",
+                "placeholder": ""
+            },
+            "motivo_viagem": {
+                "label": "Motivo_viagem",
+                "placeholder": ""
+            },
+            "meio_transporte": {
+                "label": "Meio_transporte",
+                "placeholder": ""
+            },
+            "placa": {
+                "label": "Placa",
+                "placeholder": ""
+            },
+            "valor_diaria": {
+                "label": "Valor_diaria",
+                "placeholder": ""
+            },
+            "valor_diaria_extra": {
+                "label": "Valor_diaria_extra",
+                "placeholder": ""
+            },
+            "valor_iss": {
+                "label": "Valor_iss",
+                "placeholder": ""
+            },
+            "aliquota_iss": {
+                "label": "Aliquota_iss",
+                "placeholder": ""
+            },
+            "total": {
+                "label": "Total",
+                "placeholder": ""
+            },
+            "cliente_id": {
+              "label": "Cliente",
+              "placeholder": "Insira o nome do cliente"
+            },
+            "empresa_id": {
+              "label": "Empresa",
+              "placeholder": "Insira o nome da empresa"
+            },
+            "apartamento_id": {
+              "label": "Apartamento",
+              "placeholder": "Insira o número do apartamento"
+            }
+        },
+        "headers": {
+            "chegada": "Chegada",
+            "saida": "Saida",
+            "cliente":  "Cliente",
+            "apartamento": "Apt.",
+            "quantidade_adulto": "Qt. Adulto",
+            "quantidade_crianca": "Qt. Criança",
+            "motivo_viagem": "Motivo Viagem",
+            "meio_transporte": "Meio Transporte",
+            "placa": "Placa",
+            "valor_diaria": "Valor Diária",
+            "valor_diaria_extra": "Valor Diária Extra",
+            "valor_iss": "Valor Iss",
+            "aliquota_iss": "Alíquota Iss",
+            "total": "Total"
+        },
+        "terms": {
+            "chegada": "Chegada",
+            "saida": "Saida",
+            "cliente":  "Cliente",
+            "apartamento": "Apartamento",
+            "quantidade_adulto": "Quantidade Adulto",
+            "quantidade_crianca": "Quantidade Criança",
+            "motivo_viagem": "Motivo Viagem",
+            "meio_transporte": "Meio Transporte",
+            "placa": "Placa",
+            "valor_diaria": "Valor Diária",
+            "valor_diaria_extra": "Valor Diária Extra",
+            "valor_iss": "Valor Iss",
+            "aliquota_iss": "Alíquota Iss",
+            "total": "Total"
+        }
+    }
+}

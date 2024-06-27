@@ -1,0 +1,103 @@
+{
+    "cliente": {
+        "register": "Cadastrar Cliente",
+        "edit": "Editar Cliente",
+        "list": "Clientes",
+        "form": {
+            "nome": {
+                "label": "Nome",
+                "placeholder": ""
+            },
+            "data_nasc": {
+                "label": "Data_nasc",
+                "placeholder": ""
+            },
+            "sexo": {
+                "label": "Sexo",
+                "placeholder": ""
+            },
+            "cpf": {
+                "label": "Cpf",
+                "placeholder": ""
+            },
+            "nacionalidade": {
+                "label": "Nacionalidade",
+                "placeholder": ""
+            },
+            "profissao": {
+                "label": "Profissao",
+                "placeholder": ""
+            },
+            "email": {
+                "label": "Email",
+                "placeholder": ""
+            },
+            "telefone": {
+                "label": "Telefone",
+                "placeholder": ""
+            },
+            "celular": {
+                "label": "Celular",
+                "placeholder": ""
+            },
+            "cep": {
+                "label": "Cep",
+                "placeholder": ""
+            },
+            "logradouro": {
+                "label": "Logradouro",
+                "placeholder": ""
+            },
+            "numero": {
+                "label": "Numero",
+                "placeholder": ""
+            },
+            "bairro": {
+                "label": "Bairro",
+                "placeholder": ""
+            },
+            "cidade": {
+                "label": "Cidade",
+                "placeholder": ""
+            },
+            "uf": {
+                "label": "Uf",
+                "placeholder": ""
+            }
+        },
+        "headers": {
+            "nome": "Nome Completo",
+            "data_nasc": "Data Nascimento",
+            "sexo": "Sexo",
+            "cpf": "CPF",
+            "nacionalidade": "Nacionalidade",
+            "profissao": "Profissão",
+            "email": "E-mail",
+            "telefone": "Telefone",
+            "celular": "Celular",
+            "cep": "Cep",
+            "logradouro": "Logradouro",
+            "numero": "Numero",
+            "bairro": "Bairro",
+            "cidade": "Cidade",
+            "uf": "UF"
+        },
+        "terms": {
+            "nome": "Nome Completo",
+            "data_nasc": "Data Nascimento",
+            "sexo": "Sexo",
+            "cpf": "CPF",
+            "nacionalidade": "Nacionalidade",
+            "profissao": "Profissão",
+            "email": "E-mail",
+            "telefone": "Telefone",
+            "celular": "Celular",
+            "cep": "Cep",
+            "logradouro": "Logradouro",
+            "numero": "Numero",
+            "bairro": "Bairro",
+            "cidade": "Cidade",
+            "uf": "UF"
+        }
+    }
+}
