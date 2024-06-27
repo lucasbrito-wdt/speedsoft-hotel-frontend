@@ -108,7 +108,7 @@
     "@iconify-json/fa": "1.1.8",
     "@iconify-json/tabler": "1.1.106",
     "@sindresorhus/is": "6.2.0",
-    "@tabler/icons-webfont": "^2.44.0",
+    "@tabler/icons-webfont": "^3.7.0",
     "@tiptap/extension-highlight": "2.2.4",
     "@tiptap/extension-image": "2.2.4",
     "@tiptap/extension-link": "2.2.4",
